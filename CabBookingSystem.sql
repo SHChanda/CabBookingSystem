@@ -54,7 +54,21 @@ Create Table Admin(
 Username varchar(50) primary key,
 Password varchar(25) not null)
 
+insert into Location values
+('Hyderabad'),
+('Visakhapatnam'),
+('Chennai'),
+('Thiruvananthapuram'),
+('Bengaluru')
 
-
-
-
+insert into Distance values
+(1,2,615),
+(1,3,627),
+(1,4,1301),
+(1,5,571),
+(2,3,795),
+(2,4,1560),
+(2,5,1004),
+(3,4,773),
+(3,5,335),
+(4,5,683)
